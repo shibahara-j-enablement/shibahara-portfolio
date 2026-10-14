@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operations & Asset Yield Portfolio | Shibahara</title>
+    <style>
+        /* Modern Reset & Base Styling */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; color: #212529; line-height: 1.6; }
+
+        /* Navigation Bar - Original Navy Blue */
+        nav { background: #1e293b; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; }
+        nav .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+        nav .brand-badge { background: #4b5e40; color: #ffffff; width: 34px; height: 34px; display: flex; align-items: center; justify-content: center; border-radius: 6px; font-weight: 700; font-size: 0.95rem; border: 1px solid rgba(255,255,255,0.2); }
+        nav .brand-text { color: #ffffff; font-weight: 600; font-size: 1.1rem; }
+        
+        nav ul { list-style: none; display: flex; gap: 20px; align-items: center; }
+        nav ul li a { color: #cbd5e1; text-decoration: none; font-weight: 500; transition: color 0.3s; }
+        nav ul li a:hover, nav ul li a.active { color: #ffffff; }
+
+        /* Hero Section - Lighter Olive Green Gradient + White Text */
+        .hero { background: linear-gradient(135deg, #4b5e40 0%, #5d7550 100%); color: #ffffff; padding: 70px 20px; }
+        .hero-container { max-width: 1000px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 40px; }
+        .hero-text { flex: 1; text-align: left; }
+        .hero-text h1 { font-size: 2.3rem; margin-bottom: 15px; letter-spacing: -0.5px; line-height: 1.2; color: #ffffff; font-weight: 700; }
+        .hero-text p { font-size: 1.15rem; color: #e2e8f0; margin: 0; }
+        
+        .hero-action { flex-shrink: 0; }
+        .btn { display: inline-block; background-color: #2563eb; color: #ffffff; padding: 14px 28px; text-decoration: none; border-radius: 6px; font-weight: bold; transition: background 0.3s; whitespace: nowrap; }
+        .btn:hover { background-color: #1d4ed8; }
+        .btn-linkedin { background-color: #0a66c2; }
+        .btn-linkedin:hover { background-color: #084e96; }
+
+        /* Container & Sections */
+        .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+        .section-title { font-size: 1.75rem; margin-bottom: 20px; color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; text-align: center; }
+
+        /* Strategic Pillars Grid */
+        .grid { display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 40px; }
+        .card { flex: 1 1 calc(33.333% - 20px); min-width: 280px; background: #ffffff; padding: 25px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); text-align: center; border-top: 4px solid #4b5e40; }
+        .card h3 { font-size: 1.2rem; color: #1e293b; margin-bottom: 10px; }
+        .card p { font-size: 0.95rem; color: #475569; }
+
+        /* Footer */
+        footer { text-align: center; padding: 20px; color: #64748b; font-size: 0.9rem; border-top: 1px solid #e2e8f0; }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .hero-container { flex-direction: column; align-items: flex-start; gap: 25px; }
+            .btn { width: 100%; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <a href="index.html" class="brand">
+            <span class="brand-badge">SJ</span>
+            <span class="brand-text">Shibahara</span>
+        </a>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="https://www.linkedin.com/in/shibaharaj" target="_blank">LinkedIn</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Maximizing Retail Asset Yield & Marathon Brand Equity</h1>
+                <p>Bridging high-level corporate directives with daily station execution—optimizing volume growth, c-store margins, and operational compliance across the portfolio.</p>
+            </div>
+            <div class="hero-action">
+                <a href="experience.html" class="btn">Explore Operational Focus</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+        <h2 class="section-title">Strategic Value Pillars</h2>
+        
+        <div class="grid">
+            <div class="card">
+                <h3>Operational Excellence</h3>
+                <p>Standardizing closing workflows, SOP execution, and audit systems to enforce regulatory compliance and eliminate liabilities.</p>
+            </div>
+            <div class="card">
+                <h3>Technical Asset Optimization</h3>
+                <p>Executing in-house technical calibration, equipment troubleshooting, and preventive maintenance to eliminate third-party dispatch fees.</p>
+            </div>
+            <div class="card">
+                <h3>Revenue & Margin Growth</h3>
+                <p>Engineering data-driven upselling frameworks, promotional bundling, and environmental styling to boost customer dwell time and basket size.</p>
+            </div>
+        </div>
+
+        <!-- CONNECT CALLOUT BLOCK -->
+        <div style="text-align: center; margin: 50px 0 20px; background: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+            <h3 style="color: #0f172a; margin-bottom: 10px;">Professional Network & Track Record</h3>
+            <p style="color: #475569; margin-bottom: 20px;">Connect directly on LinkedIn or review my full career history.</p>
+            <a href="https://www.linkedin.com/in/shibaharaj" target="_blank" class="btn btn-linkedin">View LinkedIn Profile</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Shibahara Jonathon. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
